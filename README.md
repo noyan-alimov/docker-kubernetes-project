@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![noyan-alimov](https://circleci.com/gh/noyan-alimov/docker-kubernetes-project.svg?style=svg)](https://app.circleci.com/pipelines/github/noyan-alimov/docker-kubernetes-project)
 
 ## Project Overview
 
