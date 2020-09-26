@@ -15,6 +15,7 @@ The app is configured to enable it to run using Docker and Kubernetes.
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./upload_docker.sh` and then `./run_kubernetes.sh`
-
-Don't forget to change the dockerpath variable in both upload_docker.sh and run_kubernetes.sh You should put your unique Docker Hub ID.
+3. Run in Kubernetes:  
+- install minikube and run `minikube start`  
+- run `./run_kubernetes.sh`
+- when you are finished using the app, run `minikube delete`
